@@ -1,0 +1,32 @@
+body {
+  color: white;
+  background-color: black;
+}
+.app {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.app .cities {
+  width: 30%;
+}
+.app .active-city {
+  width: 70%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.app .active-city h3 {
+  margin-top: 0;
+}
+.list-group-item {
+  background-color: transparent;
+  cursor: pointer;
+  width: 100px;
+}
+
+.city-image {
+  width: 925px;
+}
